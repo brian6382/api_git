@@ -13,9 +13,9 @@
 ## Setup/Installation Requirements
 
 ## live site
-
-![Screenshot from 2021-07-24 15-26-43](https://user-images.githubusercontent.com/82508349/126868380-d4dc51f5-7825-43c6-87d9-af637248fe5e.png)
 {click here to acess the live site(https://brian6382.github.io/api_git/)
+![Screenshot from 2021-07-24 15-26-43](https://user-images.githubusercontent.com/82508349/126868380-d4dc51f5-7825-43c6-87d9-af637248fe5e.png)
+
 }
 
 ## Technologies Used
