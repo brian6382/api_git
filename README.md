@@ -15,7 +15,7 @@
 ## live site
 
 [![Live site](./src/assets/1.png)]
-{click here to acess the live site(https://johnwanjema/github.io/github/)
+{click here to acess the live site(https://brian6382.github.io/api_git/)
 }
 
 ## Technologies Used
@@ -47,7 +47,7 @@ phone number:0725255473 for inquries and contributions.}}
 
 ## License
 
-LICENSE(https://github.com/johnwanjema/github/blob/master/LICENSE)
+LICENSE(https://github.com/briankulei/github/blob/master/LICENSE)
 
 ## Acknowledgments
 
