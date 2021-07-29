@@ -21,13 +21,13 @@ export class searchComponent implements OnInit {
 
 
 
-  getprofilerepo(username) {
+  getprofilerepo(username:any) {
     interface ApiResponse {
       repo: string;
       name: string;
     }
     const promise = new Promise<void>((resolve, reject) => {
-      var link = (environment.serch + username + '/repos' +(environment.acesstoken));
+      var link = (environment.search + username + '/repos' );
       console.log(link)
       this.http.get<ApiResponse>(link).toPromise().then(
         (response) => {
@@ -36,10 +36,10 @@ export class searchComponent implements OnInit {
 
           console.log(response);
         },
-        (error) => {
-          alert('No user Found')
-          reject(error);
-        }
+        // (error) => {
+        //   alert('No user Found')
+        //   reject(error);
+        // }
       );
     });
     return promise;
@@ -64,7 +64,7 @@ export class searchComponent implements OnInit {
   findrepo(gitsearch) {
     let search = gitsearch.value;
     console.log(search)
-    let finallink = 'https://api.github.com/users/' + search + '/repos'+(environment.acesstoken);
+    let finallink = 'https://api.github.com/users/' + search + '/repos';
     console.log(finallink);
 
     interface ApiResponse {
@@ -80,10 +80,10 @@ export class searchComponent implements OnInit {
 
           console.log(this.repositories);
         },
-        (error) => {
-          alert('error occured');
-          reject(error);
-        }
+        // (error) => {
+        //   // alert('error occured');
+        //   reject(error);
+        // }
       );
     });
     return promise;

@@ -12,12 +12,12 @@ export class RepoService {
 
 
   getProfileInfo(username: string) {
-    return this.http.get((environment.serch) + username + (environment.acesstoken));
+    return this.http.get((environment.search) + username );
   
   }
 
 
   constructor(private http: HttpClient) {
-    this.repo = new Repo('', 0, '', '', '');
+    this.repo = new Repo('', 0, '', '', '',new Date());
   }
 }

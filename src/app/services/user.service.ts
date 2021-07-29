@@ -21,7 +21,7 @@ export class UserService {
     }
     const promise = new Promise<void>((resolve, reject) => {
 
-      var link = (environment.link + environment.acesstoken);
+      var link = (environment.link );
       console.log(link);
       this.http.get<ApiResponse>(link).toPromise().then(
         (response) => {

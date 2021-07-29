@@ -4,8 +4,8 @@
 
 export const environment = {
   production: false,
-  acesstoken: "?access_token=2fa811e90b886480a14cede081f838724b641935",
-  serch: "https://api.github.com/users/",
+  // acesstoken: "?access_token=2fa811e90b886480a14cede081f838724b641935",
+  search: "https://api.github.com/users/",
   apiUrl: "https://api.github.com/users/brian6382/repos",
   link: "https://api.github.com/users/brian6382"
 };
