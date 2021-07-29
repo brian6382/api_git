@@ -13,9 +13,9 @@
 ## Setup/Installation Requirements
 
 ## live site
+{click here to acess the live site(https://brian6382.github.io/api_git/)
+![Screenshot from 2021-07-24 15-26-43](https://user-images.githubusercontent.com/82508349/126868380-d4dc51f5-7825-43c6-87d9-af637248fe5e.png)
 
-[![Live site](./src/assets/1.png)]
-{click here to acess the live site(https://johnwanjema/github.io/github/)
 }
 
 ## Technologies Used
@@ -27,7 +27,7 @@
 - HTML
 - BOOTSTRAP
 - Angular CLI.
-  }
+  
 
 ## Behaviour Driven Devlopment(BDD)
 
@@ -47,8 +47,8 @@ phone number:0725255473 for inquries and contributions.}}
 
 ## License
 
-LICENSE(https://github.com/johnwanjema/github/blob/master/LICENSE)
+LICENSE(https://github.com/briankulei/github/blob/master/LICENSE)
 
 ## Acknowledgments
 
-John Wanjema
+Brian Kulei
