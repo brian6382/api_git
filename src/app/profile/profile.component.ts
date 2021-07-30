@@ -20,7 +20,7 @@ export class ProfileComponent implements OnInit {
   }
 
   getRepos() {
-    const repos = (environment.apiUrl ) ;
+    const repos = ("https://api.github.com/users/brian6382/repos" ) ;
 
 
     this.http.get(repos).subscribe((data) => {

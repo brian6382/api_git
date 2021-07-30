@@ -12,7 +12,7 @@ export class RepoService {
 
 
   getProfileInfo(username: string) {
-    return this.http.get((environment.search) + username );
+    return this.http.get(("https://api.github.com/users/") + username );
   
   }
 
